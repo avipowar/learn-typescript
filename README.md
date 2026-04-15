@@ -1,0 +1,1 @@
+# ways to setup Typescript
