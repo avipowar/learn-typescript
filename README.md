@@ -1,9 +1,17 @@
-# ways to setup Typescript
+## ways to setup Typescript
 
-1) setup globally
+# setup globally
     - tsc --init => tsconfig.json banata hai => Project settings control karta hai (TypeScript ke rules set karne wali file banana)
     - npm i -g typescript
     - tsc -v (check version)
     - touch index.ts  (create file) 
     - tsc index.ts (index.js file generate karega)
     - node index.js 
+
+# setup locally
+    - npm init -y => (create package.json file )
+    - npm i -D typescript => (install in project for development)
+    - npx tsc --init (create tsconfig.json file)
+    - create src/index.ts file
+    - npx tsc  => (compile ts => js => create js file)
+    - node src/index.js (run the js file)
