@@ -15,3 +15,5 @@
     - create src/index.ts file
     - npx tsc  => (compile ts => js => create js file)
     - node src/index.js (run the js file)
+    - declaration: false => extra files avoid (clean project)
+    - sourceMap: true => debugging easy (show ts file error not js file)
