@@ -17,3 +17,12 @@
     - node src/index.js (run the js file)
     - declaration: false => extra files avoid (clean project)
     - sourceMap: true => debugging easy (show ts file error not js file)
+
+# setup using vite 
+    - npm create vite@latest my-ts-app
+    - npm install
+    - npm run dev
+    - npm run build
+    - Development (npm run dev) → No JS files (fast, in-memory)
+    - Production (npm run build) → JS files created (optimized)
+    
